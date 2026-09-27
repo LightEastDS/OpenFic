@@ -1,7 +1,7 @@
 id: builtin-skill--reader-contract
 name: 读者契约与剧情推进审查
 summary: 检查核心阅读承诺、主角代理权、期待所有权、收益交换、终局储备和剧情推进风险。
-is_enabled: true
+is_enabled: false
 content: |
   # 读者契约与终局储备
 

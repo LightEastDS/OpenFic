@@ -1,7 +1,7 @@
 id: builtin-skill--story-deconstruction
 name: 小说结构拆解
 summary: 根据用户提供的小说文本，按长篇或短篇路由执行完整的结构、节点、聚合、情绪、人物、关系、写作手法、质量与事实溯源分析。
-is_enabled: true
+is_enabled: false
 content: |
   # 小说结构拆解：长篇 / 短篇完整方法论
 

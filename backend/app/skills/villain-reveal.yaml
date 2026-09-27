@@ -1,7 +1,7 @@
 id: builtin-skill--villain-reveal
 name: 反派与真相揭露设计
 summary: 设计反派动机、作恶升级、真相揭露方式和因果报应。
-is_enabled: true
+is_enabled: false
 content: |
   # 反派系统与真相揭露机制
 

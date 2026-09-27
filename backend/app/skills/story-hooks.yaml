@@ -1,7 +1,7 @@
 id: builtin-skill--story-hooks
 name: 故事钩子与悬念设计
 summary: 设计段落、章节和跨章节的钩子与悬念，控制信息差、期待链和兑现节奏。
-is_enabled: true
+is_enabled: false
 content: |
   # 故事钩子与悬念设计
 

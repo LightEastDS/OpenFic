@@ -1,7 +1,7 @@
 id: builtin-skill--short-submission
 name: 短篇投稿结构设计
 summary: 根据用户指定的平台目标，完整设计平台基调、导语骨架、黄金三角、付费点、投稿成品和双平台格式。
-is_enabled: true
+is_enabled: false
 content: |
   # 投稿范式：平台基调 · 导语 · 付费点
 

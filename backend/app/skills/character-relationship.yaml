@@ -1,7 +1,7 @@
 id: builtin-skill--character-relationship
 name: 小说人物关系推进
 summary: 设计人物关系的建立、变化、冲突和阶段推进，保持互动尺度与角色状态一致。
-is_enabled: true
+is_enabled: false
 content: |
   # 角色关系与感情线操作手册
 

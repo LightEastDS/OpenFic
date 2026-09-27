@@ -1,7 +1,7 @@
 id: builtin-skill--emotional-arc
 name: 情绪弧线与情感拉扯
 summary: 设计故事情绪弧线、情感羁绊、撕裂、蓄力、释放与余韵，控制读者情绪的起伏和兑现。
-is_enabled: true
+is_enabled: false
 content: |
   # 情绪弧线执行指令
 

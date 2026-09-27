@@ -1,7 +1,7 @@
 id: builtin-skill--dialogue-design
 name: 小说对话设计
 summary: 设计潜台词、权力博弈、人物声线、信息展示和情绪递进，避免对话变成说明书。
-is_enabled: true
+is_enabled: false
 content: |
   # 对话设计执行指令
 

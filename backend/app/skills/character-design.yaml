@@ -1,7 +1,7 @@
 id: builtin-skill--character-design
 name: 小说人物设计
 summary: 设计主角、配角和反派的动机、缺陷、反差、功能与成长轨迹。
-is_enabled: true
+is_enabled: false
 content: |
   # 角色基础设计与角色设计操作手册
 

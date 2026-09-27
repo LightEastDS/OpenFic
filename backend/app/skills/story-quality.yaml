@@ -1,7 +1,7 @@
 id: builtin-skill--story-quality
 name: 网文质量审查
 summary: 按完整 Rubric 和检查清单审查用户提供的章节、片段、剧情方案或故事设定，输出 PASS/WARN/FAIL、S1-S4 Findings、发布门槛和可执行修改方向。
-is_enabled: true
+is_enabled: false
 content: |
   # 通用网文内容审查 Rubric 与完整检查清单
 
