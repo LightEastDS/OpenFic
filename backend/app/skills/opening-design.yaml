@@ -1,6 +1,6 @@
 id: builtin-skill--opening-design
 name: 小说开篇设计
-summary: 设计网文前一至三章的切入策略、人设基点、冲突、金手指、卖点和期待链。
+summary: 设计小说前一至三章的切入策略、人设基点、冲突、金手指、卖点和期待链。
 is_enabled: false
 content: |
   # 开篇设计执行指令
@@ -9,7 +9,7 @@ content: |
 references:
   - name: 开头设计原始方法论
     content: |
-      # 开头设计：网文开篇操作手册
+      # 开头设计：小说开篇操作手册
 
       ## 决策路由
 
