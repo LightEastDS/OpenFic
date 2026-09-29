@@ -48,6 +48,7 @@ export const REGISTERED_TOOL_NAMES = [
   "write_plan",
   "activate_skill",
   "reference_skill",
+  "count_chinese_words",
 ] as const;
 
 export type RegisteredToolName = (typeof REGISTERED_TOOL_NAMES)[number];
@@ -61,7 +62,8 @@ export type ToolGroup =
   | "volume"
   | "context"
   | "plan"
-  | "skill";
+  | "skill"
+  | "text";
 
 export interface ToolDescriptorMeta {
   toolName: RegisteredToolName;
@@ -416,6 +418,13 @@ export const TOOL_DESCRIPTOR_META = {
     tag: "reference",
     isExplore: false,
     contentMode: "hidden",
+  },
+  count_chinese_words: {
+    toolName: "count_chinese_words",
+    group: "text",
+    tag: "count-words",
+    isExplore: false,
+    contentMode: "expandable",
   },
 } satisfies Record<RegisteredToolName, ToolDescriptorMeta>;
 

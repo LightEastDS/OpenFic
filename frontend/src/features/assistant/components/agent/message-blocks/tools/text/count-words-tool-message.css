@@ -1,0 +1,31 @@
+.agent-count-words-panel {
+  padding: 8px 12px;
+  background-color: var(--gray-2);
+  border-radius: var(--radius-2);
+  border: 1px solid var(--gray-4);
+}
+
+.agent-count-words-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.agent-count-words-segments {
+  border-top: 1px dashed var(--gray-5);
+  padding-top: 8px;
+}
+
+.agent-count-words-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.agent-count-words-list-item {
+  display: flex;
+  align-items: flex-start;
+}

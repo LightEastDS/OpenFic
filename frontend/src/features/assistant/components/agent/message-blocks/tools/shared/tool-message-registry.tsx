@@ -59,6 +59,7 @@ import { getPlanToolDisplayConfig } from "../plan/plan-tool-message.utils";
 import { WebSearchToolIcon, WebSearchToolMessage } from "../web-search/web-search-tool-message";
 import { normalizeWebSearchData } from "../web-search/web-search-tool-message.utils";
 import { WorldEntryToolMessage } from "../world-entry/world-entry-tool-message";
+import { CountWordsToolMessage } from "../text/count-words-tool-message";
 import {
   getExploreToolNames as getCatalogExploreToolNames,
   REGISTERED_TOOL_NAMES,
@@ -803,6 +804,27 @@ const TOOL_REGISTRY = {
       if (skillName && refName) return `${skillName}/${refName}`;
       return skillName ?? refName;
     },
+  },
+  count_chinese_words: {
+    toolName: "count_chinese_words",
+    group: "text",
+    tag: "count-words",
+    isExplore: false,
+    contentMode: "expandable",
+    icon: FileText,
+    getTitle: () => "字数核查",
+    getDetail: (message) => {
+      let data = getToolResultData(message);
+      if (typeof data === "string") {
+        try { data = JSON.parse(data); } catch { /* empty */ }
+      }
+      if (isRecord(data) && typeof data.total_with_punctuation === "number") {
+        return `含标点: ${data.total_with_punctuation}`;
+      }
+      return undefined;
+    },
+    defaultExpanded: () => true,
+    render: (message) => <CountWordsToolMessage message={message} />,
   },
 } satisfies Record<RegisteredToolName, ToolDescriptor>;
 
