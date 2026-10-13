@@ -1,10 +1,8 @@
 import { Box, Text } from "@radix-ui/themes";
 
 import type { AgentMessage } from "@/lib/agent.types";
-import { isRecord, asString } from "@/lib/ui-utils";
-
 import { ToolBody } from "../shared/tool-message-shared";
-import { getToolResultData, getStreamingData } from "../shared/tool-message-utils";
+import { getToolResultData, getStreamingData, isRecord, asString } from "../shared/tool-message-utils";
 
 import "./count-words-tool-message.css";
 
