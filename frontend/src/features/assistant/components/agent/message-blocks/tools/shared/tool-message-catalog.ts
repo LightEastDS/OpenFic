@@ -49,6 +49,15 @@ export const REGISTERED_TOOL_NAMES = [
   "activate_skill",
   "reference_skill",
   "count_chinese_words",
+  "list_skills",
+  "get_skill",
+  "get_skill_reference_doc",
+  "create_skill",
+  "edit_skill",
+  "create_skill_reference_doc",
+  "edit_skill_reference_doc",
+  "delete_skill",
+  "delete_skill_reference_doc",
 ] as const;
 
 export type RegisteredToolName = (typeof REGISTERED_TOOL_NAMES)[number];
@@ -426,6 +435,70 @@ export const TOOL_DESCRIPTOR_META = {
     isExplore: false,
     contentMode: "expandable",
   },
+  list_skills: {
+    toolName: "list_skills",
+    group: "skill",
+    tag: "list",
+    isExplore: true,
+    contentMode: "hidden",
+  },
+  get_skill: {
+    toolName: "get_skill",
+    group: "skill",
+    tag: "get",
+    isExplore: true,
+    contentMode: "hidden",
+  },
+  get_skill_reference_doc: {
+    toolName: "get_skill_reference_doc",
+    group: "skill",
+    tag: "get-reference",
+    isExplore: true,
+    contentMode: "hidden",
+  },
+  create_skill: {
+    toolName: "create_skill",
+    group: "skill",
+    tag: "create",
+    isExplore: false,
+    contentMode: "expandable",
+  },
+  edit_skill: {
+    toolName: "edit_skill",
+    group: "skill",
+    tag: "edit",
+    isExplore: false,
+    contentMode: "expandable",
+  },
+  create_skill_reference_doc: {
+    toolName: "create_skill_reference_doc",
+    group: "skill",
+    tag: "create-reference",
+    isExplore: false,
+    contentMode: "expandable",
+  },
+  edit_skill_reference_doc: {
+    toolName: "edit_skill_reference_doc",
+    group: "skill",
+    tag: "edit-reference",
+    isExplore: false,
+    contentMode: "expandable",
+  },
+  delete_skill: {
+    toolName: "delete_skill",
+    group: "skill",
+    tag: "delete",
+    isExplore: false,
+    contentMode: "hidden",
+  },
+  delete_skill_reference_doc: {
+    toolName: "delete_skill_reference_doc",
+    group: "skill",
+    tag: "delete-reference",
+    isExplore: false,
+    contentMode: "hidden",
+  },
+
 } satisfies Record<RegisteredToolName, ToolDescriptorMeta>;
 
 export function isExploreToolName(toolName?: string): boolean {
