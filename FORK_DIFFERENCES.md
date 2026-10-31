@@ -2,7 +2,7 @@
 
 > **代码仓库**：[LightEastDS/OpenFic](https://github.com/LightEastDS/OpenFic)  
 > **上游仓库（Upstream）**：[syrizelink/OpenFic](https://github.com/syrizelink/OpenFic)  
-> **当前基线**：已完全合并上游最新 `v0.12.1` 版本，并在其基础上持续优化。
+> **当前基线**：已完全合并上游最新 `v0.13.0` 版本，并在其基础上持续优化。
 
 ---
 
@@ -67,7 +67,7 @@ LLM 普遍存在无法准确感知汉字字数的天然短板（通常基于 Tok
 
 ### 五、 上游同步与工程维护（Upstream Sync）
 
-- 持续跟进官方主线更新，已成功变基合并上游最新 `v0.12.1` 发布版。
+- 持续跟进官方主线更新，已成功变基合并上游最新 `v0.13.0` 发布版。
 - 修复了前端工具组件导入路径类型检查错误（`isRecord`, `asString` 路径修复）。
 - 保持 Docker 容器化部署与本地运行的最佳兼容性。
 

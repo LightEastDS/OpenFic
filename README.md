@@ -1,35 +1,21 @@
-# OpenFic
+# OpenFic (LightEastDS Edition)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/syrizelink/OpenFic)
-![AtomGit Repo stars](https://atomgit.com/Syrize/OpenFic/star/badge.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/LightEastDS/OpenFic)
 ![License](https://img.shields.io/badge/License-Apache_2.0-red)
-![GitHub Release](https://img.shields.io/github/v/release/syrizelink/OpenFic?logo=githubactions&logoColor=white&color=yellow)
-![Release Downloads](https://img.shields.io/github/downloads/syrizelink/OpenFic/total?logo=github&logoColor=white&label=Release%20downloads&color=yellow)
+![GitHub Release](https://img.shields.io/github/v/release/LightEastDS/OpenFic?logo=githubactions&logoColor=white&color=yellow)
 ![PyPI - Version](https://img.shields.io/pypi/v/openfic?logo=pypi&logoColor=white&color=green)
-[![交流群](https://img.shields.io/badge/交流群-1105304435-12B7F5?logo=qq&logoColor=white)](https://qun.qq.com/universal-share/share?ac=1&authKey=XxKBo33K1IAy%2FejDsGPWOn51pCNk1Bu1%2F2dtldtWCWSdPGor4tZkaboxgrGkz2BS&busi_data=eyJncm91cENvZGUiOiIxMTA1MzA0NDM1IiwidG9rZW4iOiJCY1NuV2s5d1B2QmI2R0ZiMldMbDE4MVRPV1puMFJlWjZIRlZrRjk4WGUwY2wvdUlaWEFPZ1cvV0lLbWl6d3JwIiwidWluIjoiMjUzMjEyNDQwNCJ9&data=B2VDUuvIYSScsKPwMeFB6txn6fj8I18zG6EKsmsrZDwPpmNCoJ7r5NTLtmUUf58MK3Lw9evkkPg28EglHJNONA&svctype=4&tempid=h5_group_info)
 
 ![OpenFic Banner](./banner.svg)
 
 中文 | [English](./README_EN.md)
 
+> [!NOTE]  
+> 本项目 Fork 自上游原项目 [syrizelink/OpenFic](https://github.com/syrizelink/OpenFic)。  
+> 本版本在保持上游特性的同时，重构了文风体系以契合出版级严肃文学创作、解除了机械字数卡点、默认禁用冗余预设技能，并新增了全栈中文字数精确统计工具。详细差异请参阅 [FORK_DIFFERENCES.md](./FORK_DIFFERENCES.md)。
+
 **OpenFic** 是一款专为小说创作打造的跨平台、用户友好、AI Native 的一站式 Vibe Writing 工具，构建设定、设计角色、定制工作流，让Agent适应你的写作流程，而非反之。
 
 ![Demo Screenshot](./demo.png)
-
-
-## 赞助商
-
-[![Infistar Banner](docs/sponsors/infistar.png)](https://www.infistar.cc/register?aff=WRDQ4VSF&ref_source=link)
-
-**OpenFic × Infistar.cc 无限星河｜高可用全模型 API**
-
-感谢 [Infistar.cc 无限星河](https://www.infistar.cc/register?aff=WRDQ4VSF&ref_source=link) 赞助本项目
-
-- ⚡ **企业级稳定模型服务**：低至官方渠道 0.1 折起，价格公开透明，多节点冗余保障，有效降低长篇写作时的限流与超时中断
-- 🔀 **一键接入主流模型**：原生兼容 OpenFic，一个 API Key 即可调用 ChatGPT、Claude、Gemini、Kimi、GLM、DeepSeek 等主流模型，快速为各角色 Agent 配置合适的模型
-- 📚 **助力内容检索**：支持 Embedding、Rerank 模型，满足各类超长上下文场景的高速索引与查询需求
-
-🎁 **OpenFic 用户专属福利**：即刻通过 [专属推广链接](https://www.infistar.cc/register?aff=WRDQ4VSF&ref_source=link) 注册立领 $5 体验额度以及首充专属优惠，快速体验便捷高效的 API 服务！
 
 
 ## 何时使用
@@ -96,7 +82,7 @@ openfic serve
 
 ### 🖥桌面应用
 
-前往 [Release Page](https://github.com/syrizelink/OpenFic/releases) 下载桌面应用，在你的系统上原生运行，而无需额外步骤。
+前往 [Release Page](https://github.com/LightEastDS/OpenFic/releases)（或上游原版 [Release Page](https://github.com/syrizelink/OpenFic/releases)）下载桌面应用，在你的系统上原生运行，而无需额外步骤。
 
 ## 贡献
 
@@ -108,28 +94,24 @@ openfic serve
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=syrizelink%2FOpenFic&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=LightEastDS%2FOpenFic&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=syrizelink/OpenFic&type=date&theme=dark&legend=top-left&sealed_token=JHQpP1A05gPA9RleC2GLLnXJ5mg_nQHq_VosoaeQPU2yPGneRUJNEyxaEy--2atezknlCUb5HxLE0HB31gJAOr1ezJZHYW92VUSlWh0Ej0bkt4Q3AWVUHQ" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=syrizelink/OpenFic&type=date&legend=top-left&sealed_token=JHQpP1A05gPA9RleC2GLLnXJ5mg_nQHq_VosoaeQPU2yPGneRUJNEyxaEy--2atezknlCUb5HxLE0HB31gJAOr1ezJZHYW92VUSlWh0Ej0bkt4Q3AWVUHQ" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=syrizelink/OpenFic&type=date&legend=top-left&sealed_token=JHQpP1A05gPA9RleC2GLLnXJ5mg_nQHq_VosoaeQPU2yPGneRUJNEyxaEy--2atezknlCUb5HxLE0HB31gJAOr1ezJZHYW92VUSlWh0Ej0bkt4Q3AWVUHQ" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LightEastDS%2FOpenFic&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=LightEastDS%2FOpenFic&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=LightEastDS%2FOpenFic&type=date&legend=top-left" />
  </picture>
 </a>
 
-## Repobeats
-
-![Repobeats](https://repobeats.axiom.co/api/embed/a3b67d74bb71044ef2385d65bc469090ee3e0fe6.svg "Repobeats analytics image")
-
 ## 致谢
 
+- [OpenFic (syrizelink/OpenFic)](https://github.com/syrizelink/OpenFic) - 上游原项目
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - 灵感来源
 - [oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) - 内置写作Skill参考
 
 ## 社区
 
-[LINUX DO](https://linux.do/)
-
-交流群：[1105304435](https://qun.qq.com/universal-share/share?ac=1&authKey=XxKBo33K1IAy%2FejDsGPWOn51pCNk1Bu1%2F2dtldtWCWSdPGor4tZkaboxgrGkz2BS&busi_data=eyJncm91cENvZGUiOiIxMTA1MzA0NDM1IiwidG9rZW4iOiJCY1NuV2s5d1B2QmI2R0ZiMldMbDE4MVRPV1puMFJlWjZIRlZrRjk4WGUwY2wvdUlaWEFPZ1cvV0lLbWl6d3JwIiwidWluIjoiMjUzMjEyNDQwNCJ9&data=B2VDUuvIYSScsKPwMeFB6txn6fj8I18zG6EKsmsrZDwPpmNCoJ7r5NTLtmUUf58MK3Lw9evkkPg28EglHJNONA&svctype=4&tempid=h5_group_info)
+- [LINUX DO](https://linux.do/)
+- 原项目交流群：[1105304435](https://qun.qq.com/universal-share/share?ac=1&authKey=XxKBo33K1IAy%2FejDsGPWOn51pCNk1Bu1%2F2dtldtWCWSdPGor4tZkaboxgrGkz2BS&busi_data=eyJncm91cENvZGUiOiIxMTA1MzA0NDM1IiwidG9rZW4iOiJCY1NuV2s5d1B2QmI2R0ZiMldMbDE4MVRPV1puMFJlWjZIRlZrRjk4WGUwY2wvdUlaWEFPZ1cvV0lLbWl6d3JwIiwidWluIjoiMjUzMjEyNDQwNCJ9&data=B2VDUuvIYSScsKPwMeFB6txn6fj8I18zG6EKsmsrZDwPpmNCoJ7r5NTLtmUUf58MK3Lw9evkkPg28EglHJNONA&svctype=4&tempid=h5_group_info)
 
 
 ## 许可证

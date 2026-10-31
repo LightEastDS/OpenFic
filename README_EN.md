@@ -1,32 +1,19 @@
-# OpenFic
+# OpenFic (LightEastDS Edition)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/syrizelink/OpenFic)
-![AtomGit Repo stars](https://atomgit.com/Syrize/OpenFic/star/badge.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/LightEastDS/OpenFic)
 ![License](https://img.shields.io/badge/License-Apache_2.0-red)
-![GitHub Release](https://img.shields.io/github/v/release/syrizelink/OpenFic?logo=githubactions&logoColor=white&color=yellow)
-![Release Downloads](https://img.shields.io/github/downloads/syrizelink/OpenFic/total?logo=github&logoColor=white&label=Release%20downloads&color=yellow)
+![GitHub Release](https://img.shields.io/github/v/release/LightEastDS/OpenFic?logo=githubactions&logoColor=white&color=yellow)
 ![PyPI - Version](https://img.shields.io/pypi/v/openfic?logo=pypi&logoColor=white&color=green)
-[![交流群](https://img.shields.io/badge/交流群-1105304435-12B7F5?logo=qq&logoColor=white)](https://qun.qq.com/universal-share/share?ac=1&authKey=XxKBo33K1IAy%2FejDsGPWOn51pCNk1Bu1%2F2dtldtWCWSdPGor4tZkaboxgrGkz2BS&busi_data=eyJncm91cENvZGUiOiIxMTA1MzA0NDM1IiwidG9rZW4iOiJCY1NuV2s5d1B2QmI2R0ZiMldMbDE4MVRPV1puMFJlWjZIRlZrRjk4WGUwY2wvdUlaWEFPZ1cvV0lLbWl6d3JwIiwidWluIjoiMjUzMjEyNDQwNCJ9&data=B2VDUuvIYSScsKPwMeFB6txn6fj8I18zG6EKsmsrZDwPpmNCoJ7r5NTLtmUUf58MK3Lw9evkkPg28EglHJNONA&svctype=4&tempid=h5_group_info)
 
 [中文](./README.md) | English
+
+> [!NOTE]  
+> This project is a fork of upstream [syrizelink/OpenFic](https://github.com/syrizelink/OpenFic).  
+> While retaining upstream features, this edition refactors the style system for publication-grade literature, lifts rigid chapter word count constraints, disables redundant default skills, and introduces a full-stack precise Chinese word counting tool. See [FORK_DIFFERENCES.md](./FORK_DIFFERENCES.md) for details.
 
 **OpenFic** is an all-in-one, cross-platform, AI-native writing tool built for fiction authors. It helps you build world, design characters, and shape custom workflows, so the Agent fits your writing process instead of forcing you into its own.
 
 ![Demo Screenshot](./demo.png)
-
-## Sponsors
-
-[![Infistar Banner](docs/sponsors/infistar.png)](https://www.infistar.cc/register?aff=WRDQ4VSF&ref_source=link)
-
-**OpenFic × Infistar.cc | Highly Available API for All Models**
-
-Thanks to [Infistar.cc](https://www.infistar.cc/register?aff=WRDQ4VSF&ref_source=link) for sponsoring this project.
-
-- ⚡ **Reliable, enterprise-grade model services**: transparent pricing starting at just 1% of official rates, with multi-node redundancy to reduce rate limits and timeout interruptions during long-form writing
-- 🔀 **Easy access to leading models**: native compatibility with OpenFic lets you use ChatGPT, Claude, Gemini, Kimi, GLM, DeepSeek, and more with a single API key, so you can quickly choose suitable models for each Agent role
-- 📚 **Support for content retrieval**: Embedding and Rerank models enable fast indexing and queries for projects that require very long contexts
-
-🎁 **Exclusive benefits for OpenFic users**: register through our [exclusive referral link](https://www.infistar.cc/register?aff=WRDQ4VSF&ref_source=link) to receive $5 in trial credits and a special offer on your first top-up, and try the API service right away!
 
 ## When to Use OpenFic
 
@@ -88,7 +75,7 @@ openfic serve
 
 ### 🖥 Desktop App
 
-Download the desktop app from [the Release Page](https://github.com/syrizelink/OpenFic/releases) and run it natively on your system.
+Download the desktop app from [Release Page](https://github.com/LightEastDS/OpenFic/releases) (or upstream [Release Page](https://github.com/syrizelink/OpenFic/releases)) and run it natively on your system.
 
 ## Contributing
 
@@ -102,28 +89,24 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed contribution guidelines.
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=syrizelink%2FOpenFic&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=LightEastDS%2FOpenFic&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=syrizelink/OpenFic&type=date&theme=dark&legend=top-left&sealed_token=JHQpP1A05gPA9RleC2GLLnXJ5mg_nQHq_VosoaeQPU2yPGneRUJNEyxaEy--2atezknlCUb5HxLE0HB31gJAOr1ezJZHYW92VUSlWh0Ej0bkt4Q3AWVUHQ" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=syrizelink/OpenFic&type=date&legend=top-left&sealed_token=JHQpP1A05gPA9RleC2GLLnXJ5mg_nQHq_VosoaeQPU2yPGneRUJNEyxaEy--2atezknlCUb5HxLE0HB31gJAOr1ezJZHYW92VUSlWh0Ej0bkt4Q3AWVUHQ" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=syrizelink/OpenFic&type=date&legend=top-left&sealed_token=JHQpP1A05gPA9RleC2GLLnXJ5mg_nQHq_VosoaeQPU2yPGneRUJNEyxaEy--2atezknlCUb5HxLE0HB31gJAOr1ezJZHYW92VUSlWh0Ej0bkt4Q3AWVUHQ" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LightEastDS%2FOpenFic&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=LightEastDS%2FOpenFic&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=LightEastDS%2FOpenFic&type=date&legend=top-left" />
  </picture>
 </a>
 
-## Repobeats
-
-![Repobeats](https://repobeats.axiom.co/api/embed/a3b67d74bb71044ef2385d65bc469090ee3e0fe6.svg "Repobeats analytics image")
-
 ## Acknowledgements
 
+- [OpenFic (syrizelink/OpenFic)](https://github.com/syrizelink/OpenFic) - Upstream repository
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - inspiration
 - [oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) - reference for the built-in writing Skill
 
 ## Community
 
-[LINUX DO](https://linux.do/)
-
-交流群：[1105304435](https://qun.qq.com/universal-share/share?ac=1&authKey=XxKBo33K1IAy%2FejDsGPWOn51pCNk1Bu1%2F2dtldtWCWSdPGor4tZkaboxgrGkz2BS&busi_data=eyJncm91cENvZGUiOiIxMTA1MzA0NDM1IiwidG9rZW4iOiJCY1NuV2s5d1B2QmI2R0ZiMldMbDE4MVRPV1puMFJlWjZIRlZrRjk4WGUwY2wvdUlaWEFPZ1cvV0lLbWl6d3JwIiwidWluIjoiMjUzMjEyNDQwNCJ9&data=B2VDUuvIYSScsKPwMeFB6txn6fj8I18zG6EKsmsrZDwPpmNCoJ7r5NTLtmUUf58MK3Lw9evkkPg28EglHJNONA&svctype=4&tempid=h5_group_info)
+- [LINUX DO](https://linux.do/)
+- Upstream QQ Group: [1105304435](https://qun.qq.com/universal-share/share?ac=1&authKey=XxKBo33K1IAy%2FejDsGPWOn51pCNk1Bu1%2F2dtldtWCWSdPGor4tZkaboxgrGkz2BS&busi_data=eyJncm91cENvZGUiOiIxMTA1MzA0NDM1IiwidG9rZW4iOiJCY1NuV2s5d1B2QmI2R0ZiMldMbDE4MVRPV1puMFJlWjZIRlZrRjk4WGUwY2wvdUlaWEFPZ1cvV0lLbWl6d3JwIiwidWluIjoiMjUzMjEyNDQwNCJ9&data=B2VDUuvIYSScsKPwMeFB6txn6fj8I18zG6EKsmsrZDwPpmNCoJ7r5NTLtmUUf58MK3Lw9evkkPg28EglHJNONA&svctype=4&tempid=h5_group_info)
 
 ## License
 
